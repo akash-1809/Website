@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .profile-image {
+    width: 180px;
+    height: 180px; 
+    border-radius: 50%; 
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+        section {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            margin: 10px 0;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #333;
+            color: white;
+            text-align: left;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        form label, form input, form textarea, form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Resume</h1>
+    </header>
+
+    <section class="container">
+        <h2>Personal Information</h2>
+        <img src="profile.jpg" alt="Profile Image" class="profile-image">
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>A Akash</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>240772.CD@rmkec.ac.in</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>+1 234 567 890</td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td>No 5 Meenakshi Nagar Korattur Chennai</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development (HTML, CSS)</li>
+            <li>Programming Languages (Python, C++)</li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <h2>Projects</h2>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Role</th>
+                <th>Duration</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Portfolio Resume</td>
+                <td>Developer</td>
+                <td>November 2024</td>
+                <td>Developed a portfolio website to display my resume.</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="container">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Engineering in Computer Science and Design, R.M.K. Engineering College(Present)</li>
+            <li>JGVV (Higher Secondary)</li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
